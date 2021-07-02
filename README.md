@@ -7,18 +7,22 @@ Let us start from last tasks  (P.S: My mothertoungue is not URDU,xD)
 [Task-3 : *Flag in Funny audio*] (To be frank,its not that funny,xD)
 
 I will share my whole thought process from my initial wrong appraoch to final correct approach.
-Secret data hidden in an audio file(funny audio file).As soon as I read the problem statement (just listening first 7secs of audio) my mind suggested me to decode the audio mp3 file into binary data.I converted the audio file into ASCII format and put it in my notepad.You know what's my reaction, Where the heck should I search for the secret in this whole bunch of random text!!!
-So then I decided to change my approach.First I thought I should listen to the audio :) in a common man aproach.Then I realised I took whole long (&wrong too) journey to reach my neighbour's house.The logic is in the audio of the clip.It has only 2 phrases being repeated varying times consecutively in some fashion.That fashion is nothing but a sequence with one phrase as '1' and other phrase as '0' (actually choice of 1 to particular phrase is specific inorder to meet the range of ASCII values which is required to crack the secret).So I manually recorded the sequence in a binary fashion by listening to the audio clip.
+<br>
+Secret data hidden in an audio file(funny audio file).<br>
+As soon as I read the problem statement (just listening for first 7secs of audio)I instinctly decided to decode the audio mp3 file into binary data.I converted the audio file into ASCII format and put it in my notepad.Then I was pondering on where do I search for the secret in this whole bunch of random text!?<br>
+So,I decided to scale down my approach and listened to the audio :) in a common man approach.Then I realised I took a whole long (wrong too) journey to reach the same point.The logic is in the audio clip.It has only 2 phrases being repeated over and over consecutively in some manner which is nothing but a sequence with one phrase as '1' and other phrase as '0' (actually choice of 1 to particular phrase is specific inorder to meet the range of ASCII values which is required to crack the secret).<br>So I manually recorded the sequence in a binary fashion by listening to the audio clip.
 ![Screenshot (244)](https://user-images.githubusercontent.com/54037421/124306892-a4ae8980-db84-11eb-81d9-5f227137ca9a.png)
+<br>
 I used an <a href="https://www.binaryhexconverter.com/binary-to-ascii-text-converter">online</a> binary to ASCII character converter to decipher the hidden flag.
+<br>
 ![Screenshot (245)](https://user-images.githubusercontent.com/54037421/124307664-c52b1380-db85-11eb-978b-4ae1d63d5c77.png)
 
 [Finally the Secret is] : *Audio is Nice*
-Now I understood why it is called funny audio , had fun doing this task!!!
+Now I understood why it is called funny audio , had fun doing this task!
 
 [Task-2 : *Flag in Code*]
 
-This task demanded me to have a instant short blind date with Julia.I referred to Julia language documentation inorder to understand given code.Came to important conclusions regarding these lines:
+This task demanded me to have an instant short blind date with Julia.I referred to Julia language documentation inorder to understand given code.Came to important conclusions regarding these lines:
 ![Screenshot (247)](https://user-images.githubusercontent.com/54037421/124308335-ca3c9280-db86-11eb-979a-5b67238fbd7a.png)
 
 Those lines indicate that y is complement of x and x,y together form complete set s.And those x,y are converted as INT and FLOAT for compatibility of function f.
