@@ -34,5 +34,15 @@ What we obtained are sequence of ASCII values(Uint8) which needs to be converted
 
  [Julia's Secret is] : *multiple dispatch is awesome* (Seems like she enjoyed the date :) )
   
+[Task-1 : *Free Flag Yay!*]
   
+  Reporting Flags:
+  
+  ![Screenshot (255)](https://user-images.githubusercontent.com/54037421/124311800-ec84df00-db8b-11eb-9459-6a7203394744.png)
+
+  
+ 
+
+ 
+
  
